@@ -1,0 +1,71 @@
+.bar {
+  height: 100%;
+  background-color: #3b82f6;
+  transition: background-color 0.3s ease  width 1s linear;;
+}
+
+
+..warn {
+  span {
+    color: orange;
+  }
+
+  .bar {
+    background: orange;
+  }
+}
+
+.danger {
+  span {
+    color: red;
+  }
+
+  .bar {
+    background: red;
+  }
+}
+
+
+
+:host {
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+}
+
+section {
+  background: var(--color-panel);
+  border-radius: var(--radius);
+  border: 2px solid var(--color-border);
+  padding: 1.1rem 1.5rem 1.5rem 1.5rem;
+  max-width: 300px;
+  width: 100%;
+}
+
+.timer {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-family: system-ui, sans-serif;
+  justify-content: center;
+}
+
+.label {
+  font-size: 0.875rem;
+  color: #6b7280;
+  transition: color 0.3s ease;
+}
+
+.value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.progress {
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-top: 0.25rem;
+}

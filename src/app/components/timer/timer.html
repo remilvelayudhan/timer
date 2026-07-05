@@ -1,0 +1,18 @@
+<section
+[class.warn] ="secondsRemaining()<=warnAt"
+[class.danger]="secondsRemaining() <= dangerAt"
+>
+  <div class="timer">
+    @if(secondsRemaining()){
+      <span class="label">Your session expires in:</span>
+      <span class="value">{{ formatedRemaining() }}
+      </span>
+    }@else{
+          <span class="label">Your session has expired!</span>
+    }
+  </div>
+  <div class="progress">
+    <div class="bar" [style.width.%]="(secondsRemaining()/total)*100"></div>
+  </div>
+</section>
+
