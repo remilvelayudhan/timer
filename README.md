@@ -1,59 +1,166 @@
-# Timer
+# ⏱️ Timer
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.4.
+A simple and responsive countdown timer built with **Angular** using modern Angular features such as **Signals**. The application allows users to start, pause, reset, and monitor a countdown with visual feedback as time runs low.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
+
+* ⏳ Countdown timer
+* ▶️ Start timer
+* ⏸️ Pause timer
+* 🔄 Reset timer
+* ⚡ Built with Angular Signals for reactive state management
+* 📱 Responsive UI
+* 🎨 Clean and minimal design
+
+---
+
+## 🛠️ Tech Stack
+
+* **Angular**
+* **TypeScript**
+* **HTML**
+* **CSS**
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── app/
+│   ├── timer/
+│   ├── app.component.ts
+│   ├── app.component.html
+│   └── app.component.css
+├── assets/
+└── main.ts
+```
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/remilvelayudhan/timer.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd timer
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Run the Application
+
+Start the development server:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open your browser and visit:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+The application will automatically reload whenever you make changes.
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 🏗️ Build
 
-To build the project run:
+To build the project for production:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The production build will be available in the `dist/` directory.
 
-## Running unit tests
+---
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 🧪 Running Tests
+
+Unit tests:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+End-to-end tests (if configured):
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 📸 Screenshot
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Add a screenshot of the application here.
+
+```text
+docs/screenshot.png
+```
+
+Example:
+
+```markdown
+![Timer Screenshot](docs/screenshot.png)
+```
+
+---
+
+## 📚 What I Learned
+
+This project helped me practice:
+
+* Angular Signals
+* Component communication
+* State management
+* Timer logic using `setInterval`
+* TypeScript best practices
+* Building responsive Angular applications
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Push the branch.
+5. Open a Pull Request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Remil Velayudhan**
+
+* GitHub: https://github.com/remilvelayudhan
+
+---
+
+⭐ If you found this project helpful, please consider giving it a star!
